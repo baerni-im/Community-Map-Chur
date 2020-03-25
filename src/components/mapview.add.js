@@ -133,23 +133,23 @@ export function MapAddComponent() {
         <AnimatedMap getMapObject={m => setMap(m)} enabled={mapActive} />
         {!mapActive && (
           <div id='overlay' className='box'>
-            <h3>Add new information</h3>
+            <h3>Neue Information hinzufügen</h3>
             <p>
-              Choose a position on the map within the community boundaries to become part of Who'zinberg.
+              Wähle eine Position auf der Karte, um ein Teil der CommunityChur zu werden.
             </p>
             <button
               className='ui primary button'
               onClick={() => setMapActive(true)}
             >
-              Activate map and add service
+              Karte aktivieren und Service hinzufügen
             </button>
           </div>
         )}
 
         {content.position.length > 0 && (
           <div id='selectThisPoint' className='box'>
-            <h3>You set a position</h3>
-            <p>Do you want to use it?</p>
+            <h3>Position gesetzt</h3>
+            <p>Diese Position übernehmen?</p>
             <div className='ui buttons'>
               <button
                 className='ui button'
@@ -157,13 +157,13 @@ export function MapAddComponent() {
                   setContent({ ...content, position: [] })
                 }}
               >
-                No, choose again...
+                Nein, neu wählen...
               </button>
               <button
                 className='ui positive button'
                 onClick={() => setPositionSelected(true)}
               >
-                Yes!
+                Ja!
               </button>
             </div>
           </div>
@@ -185,14 +185,14 @@ export function MapAddComponent() {
             </button>
             <div className='ui form'>
               <h4 className='ui horizontal divider header'>
-                About your service (public)
+                Infos zu deinem Service (sichtbar für alle)
               </h4>
               <p>
-                Please answer the following questions. This data will be displayed on the map. At the moment, it's only possible to choose <strong>one category</strong> per point. If you have more than one information, you'll have to add every single one to the map.
+                Bitte beanworte die folgenden Fragen. Diese Informationen werden nach einer Kontrolle von uns auf der Karte erscheinen. Aktuell kann nur <strong>eine Kategorie</strong> pro Service ausgewählt werden. Wenn du mehr als eine Hilfestellung anbieten kannst, musst du mehrere Punkte in der Karte setzen.
               </p>
 
               <div className='field'>
-                <label>Service category</label>
+                <label>Service Kategorie</label>
                 <select
                   value={content.category}
                   className='ui dropdown'
@@ -215,80 +215,80 @@ export function MapAddComponent() {
               </div>
 
               <div className='field required'>
-                <label>Title of your information</label>
+                <label>Titel</label>
                 <input
                   type='text'
                   name='title'
                   value={content.title}
                   onChange={onChange}
-                  placeholder='Help with shopping / Have hand sanitiser / what else?'
+                  placeholder='Ich gehe für dich einkaufen / Mit Hunden spazieren etc...'
                 />
               </div>
 
               <div className='field required'>
-                <label>That's what you offer</label>
+                <label>Das bietest du an</label>
                 <textarea
                   rows={4}
                   name='description'
                   onChange={onChange}
-                  placeholder='Write a short text that describes your service or information.'
+                  placeholder='Schreibe einen kurzen Text, der deinen Service oder deine Information beschreibt.'
                   defaultValue={content.description}
                 />
               </div>
 
               <div className='field required'>
-                <label>How to get in touch</label>
+                <label>Kontaktaufnahme</label>
                 <textarea
                   rows={4}
                   name='contact'
-                  placeholder='This is what people will see. Example: Whatsapp: 012 234 23 23, Email: xyz@abc.co.za'
+                  placeholder='Das ist die Kontaktadresse, die die Webseitenbesucher sehen werden. Beispiel: Whatsapp: 079 123 45 67, Email: max@mustermann.ch'
                   defaultValue={content.contact}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field required'>
-                <label>Your physical (postal) address</label>
+                <label>Deine Adresse</label>
                 <textarea
                   rows={4}
                   name='address'
-                  placeholder='123 Main road, Muizenberg. We need this to confirm your locaction on the map.'
+                  placeholder='Beispiel: Calandastrasse 1, 7000 Chur. Wir benötigen diese Angabe, um deinen Eingabe auf der Karte zu überprüfen.'
                   defaultValue={content.address}
                   onChange={onChange}
                 />
               </div>
 
               <h4 className='ui horizontal divider header'>
-                Additional information
+                Weitere Informationen
               </h4>
               <p>
-                This information will not be published to the website.
+                Diese Informationen werden nicht auf der Webseite publiziert.
               </p>
 
               <div className='field required'>
-                <label>Your name</label>
+                <label>Dein Vor- und Nachname</label>
                 <input
                   type='text'
                   name='name'
-                  placeholder='James Smith'
+                  placeholder='Max Mustermann'
                   defaultValue={content.name}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field required'>
-                <label>Your email address</label>
+                <label>Deine E-Mailadresse</label>
                 <input
                   type='text'
                   name='email'
-                  placeholder='james@smith.com'
+                  placeholder='max@mustermann.ch'
                   defaultValue={content.email}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field'>
-                <label>Phone number (not mandatory)</label>
+                <label>Telefonnummer (freiwillig)</label>
                 <input
                   type='text'
                   name='phone'
@@ -300,16 +300,16 @@ export function MapAddComponent() {
 
               {showError && (
                 <div className='ui negative message'>
-                  <div className='header'>Missing data</div>
+                  <div className='header'>Fehlende Daten</div>
                   <p>
-                    Please fill in all the required details.
+                    Bitte fülle die benötigen Felder aus.
                   </p>
                 </div>
               )}
 
               <div className='ui buttons'>
                 <button className='ui positive button' onClick={validateForm}>
-                  Send form
+                  Senden
                 </button>
               </div>
             </div>
@@ -320,12 +320,12 @@ export function MapAddComponent() {
         <div className='ui vertical segment'>
           <div className='ui text container'>
             <div className='ui success message'>
-              <div className='header'>Thanks!</div>
+              <div className='header'>Tanka!</div>
               <p>
-                Your data has been successfully transmitted and will soon be visible on{' '}
+                Deine Eingabe war erfolgreich. Nach einer Prüfung werden deine Infos auf {' '}
                 <Link to='/'>{' '}{data.site.siteMetadata.title}
                 </Link>{' '}
-                as soon as it was approved by the administrators.
+                ersichtlich sein.
               </p>
             </div>
           </div>
@@ -334,8 +334,8 @@ export function MapAddComponent() {
 
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
-          <h2>What's happening to my data?</h2>
-          Who'zinberg administrators will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
+          <h2>Was geschieht mit meinen Daten?</h2>
+          Die CommunityChur-Administratoren überprüfen deine Angaben  will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
           <h2>Which kind of entries will be approved?</h2>
           Everyone can become part of the Who'zinberg community. Whether you're offering to read books to children via Skype, want to deliver a few slices of your delicious sour dough bread every Wednesday, or simply start a new take-away service for your products – this is your place. There will soon be an option for <strong>location-free services</strong>, too.
           <h2>How can I remove my data?</h2>

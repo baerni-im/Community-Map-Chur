@@ -5,6 +5,6 @@ module.exports = [
 	{ ident: 'shop', text: 'Happy to shop for you', color: '#8e44ad' },
 	{ ident: 'information', text: 'Info Material', color: '#2980b9' },
 	{ ident: 'medical', text: 'Medizinische Hilfe', color: '#d35400' },
-	{ ident: 'petcare', text: 'Auf vier Pfoten', color: '#e1b12c' },
+	{ ident: 'petcare', text: 'Haustier-Helfer', color: '#e1b12c' },
 	{ ident: 'sonstige', text: 'Sonstige', color: '#222f3e' }
 ]

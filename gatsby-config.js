@@ -4,19 +4,19 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    author: 'Marc Fehr',
-    title: 'Community Isolation Map',
+    author: 'Bernhard Aebersold',
+    title: 'Chur Community Map',
     description:
-      'This is the open source project for building your own community map.',
-    email: 'mail@xyz.com',
+      'Das ist ein Open-Source Projekt, um die Community in deiner Nähe zu zeigen.',
+    email: 'beni.aebersold@gmail.com',
     teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
-      hashtag: 'yourHashtag',
-      handle: 'yourTwitterHandle'
+      hashtag: 'communitychur',
+      handle: '@baern_i'
     },
     share: {
       text: 'This is the share text, follow @xyz and #abc',
-      hashtags: 'WhosInBerg,Coronavirus,StayTheFuckHome' // separate with commas,
+      hashtags: 'Communitychur,Coronavirus,BleibtZuhause,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
