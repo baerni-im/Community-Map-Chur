@@ -7,6 +7,7 @@
   Open Source "Community Isolation Map"
 </h1>
 
+Adapted from Marc Fehr:
 ## 👓 Check out the demo
 ⛱ [Who'zinberg.org
 ](https://www.whozinberg.org "The Muizenberg Community Map")
