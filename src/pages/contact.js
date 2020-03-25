@@ -12,35 +12,32 @@ const Contact = () => {
           <h1 className='ui header'>
             <div className='content'>
             <span className='page-title'>
-              Get in touch now.
+              Nimm Kontakt auf
             </span>
               <div className='sub header'>
-                This project has been built in very little time <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> and is available as an Open Source repository on <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a>. Please share the idea and get in touch if you need any help setting this up for your local community. Any feedback is appreciated!
+                Dieses Projekt wurde von<a href={'https://bernhardaebersold.ch/'} target={'_blank'}>Bernhard Aebersold</a> umgesetzt. Die Vorlage stammt vom Webentwickler <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr,</a> der seinen Code auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> kostenlos zur Verfügung stellt. Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee eure Freunden mit. Ich freue mich, auf dein Feedback!
               </div>
             </div>
           </h1>
           <div className={'ui yellow message'} style={{fontWeight: 500, fontStyle: 'italic'}}>
-            <i className={'icon external link'} />Read the Tutorial about how to set up your own map <a href={'https://medium.com/@marcfehr/how-to-build-a-fast-and-reliable-community-mapping-tool-with-gatsbyjs-and-firebase-74a0fa6b5b83?source=userActivityShare-f57d26da4972-1584988662&_branch_match_id=689400773593121406'} target={'_blank'} rel={'noopener noreferrer'}>here</a>.
+            <i className={'icon external link'} />Im Tutorial lernst du, wie du deine eigene Community-Karte machst. <a href={'https://medium.com/@marcfehr/how-to-build-a-fast-and-reliable-community-mapping-tool-with-gatsbyjs-and-firebase-74a0fa6b5b83?source=userActivityShare-f57d26da4972-1584988662&_branch_match_id=689400773593121406'} target={'_blank'} rel={'noopener noreferrer'}>Los gehts</a>.
           </div>
         </div>
       </section>
 
       <section className='ui vertical segment' style={{minHeight: '55vh'}}>
         <div className='ui text container formcontainer'>
-          <h2>Reach out via email</h2>
+          <h2>Email</h2>
           <ul>
             <li>
               {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
-              <a href='mailto:marc.fehr@gmail.com'>
-                Marc Fehr
-              </a>, developer and maintainer of{' '}
-              <a href={'https://www.whozinberg.org'} target={'_blank'} rel={'noopener noreferrer'}>
-                whozinberg.org
-              </a>
+              <a href='mailto:beni.aebersold@gmail.com'>
+                Bernhard Aebersold
+              </a>, Journalist, Fotograf und Student an der Fachhochschule Graubünden.
             </li>
           </ul>
-          <h2>Shout out on Social Media</h2>
-          <p>Please share this repository and help people using it.</p>
+          <h2>Teile Chur-hilft-Chur auf deinen Kanälen</h2>
+          <p>Teile die Idee hinter Chur-hilft-Chur, damit noch weitere Community-Karten entstehen.</p>
         </div>
       </section>
     </Layout>

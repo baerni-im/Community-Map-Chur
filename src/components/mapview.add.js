@@ -221,7 +221,7 @@ export function MapAddComponent() {
                   name='title'
                   value={content.title}
                   onChange={onChange}
-                  placeholder='Ich gehe für dich einkaufen / Mit Hunden spazieren etc...'
+                  placeholder='Ich gehe für dich einkaufen / Mit Hunden spazieren gehen etc...'
                 />
               </div>
 
@@ -335,29 +335,34 @@ export function MapAddComponent() {
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Was geschieht mit meinen Daten?</h2>
-          Die CommunityChur-Administratoren überprüfen deine Angaben  will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
-          <h2>Which kind of entries will be approved?</h2>
-          Everyone can become part of the Who'zinberg community. Whether you're offering to read books to children via Skype, want to deliver a few slices of your delicious sour dough bread every Wednesday, or simply start a new take-away service for your products – this is your place. There will soon be an option for <strong>location-free services</strong>, too.
-          <h2>How can I remove my data?</h2>
-          If you <strong>want to be deleted</strong> from the Who'zinberg map, drop me an email to{' '}
+          Die CommunityChur-Administratoren überprüfen deine Angaben und fügen sie anschliessend der Karte hinzu. Das dauert in der Regel <strong>weniger als 24 Stunden.</strong>.<br />
+          <h2>Welche Einträge werden bewilligt?</h2>
+          Jede und jeder kann Teil der Chur-hilft-Chur Community werden. Egal, ob du via Skype Kindergeschichten vorlesen oder
+          ein paar Stücke deiner leckeren Bündner Nusstorte ausliefern möchtest: Solange du Churern irgendwie helfen kannst, ist jedes Angebot willkommen.
+          <h2>Wie kann ich meine Daten entfernen?</h2>
+          Wenn dein Eintrag von der Chur-hilft-Chur Karte <strong>entfernt werden soll,</strong> schick mir eine Nachricht an{' '}
           <a
-            href='mailto:mail@whozinberg.org'
+            href='mailto:beni.aebersold@gmail.com'
           >
-            mail@wwhozinberg.org
+            beni.aebersold@gmail.com
           </a>
-          <h2>Anything we can improve?</h2>
-          This tool is supposed to be used, why we're constantly looking for constructive feedback. If you have anything that you think would make this all better, please let me know via <a
-          href='mailto:mail@whozinberg.org'
-        >
-          email
-        </a>{' '}.
-          <h2>Why only Muizenberg?</h2>
-          Because at the moment, we all need to keep our lifes as local and isolated as possible. If you want this service to be available in your area,{' '}
+          <h2>Was können wir verbessern?</h2>
+          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via
           <a
-          href='mailto:mail@whozinberg.org'
+          href='mailto:beni.aebersold@gmail.com'
         >
-            contact us via email
-        </a>{' '}and we'll talk about it. This complete project will soon be available as an <strong>open source repository</strong> on Github.
+          email.
+        </a>{' '}.
+          <h2>Warum nur in Chur?</h2>
+          Zur Verhinderung einer starken Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.
+          Das Projekt Chur-hilft-Chur soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann.<br>
+
+          Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er
+          <a
+              href='https://www.whozinberg.org'
+            >
+              whozinberg.org
+            </a> ins Leben gerufen, das identisch wie Chur-hilft-Chur funktioniert. Dankbarerweise stellt er seinen Programmiercode frei für alle zur Verfügung, damit sich weitere Communities wie Chur-hilft-Chur bilden lassen. {' '}
         </div>
       </div>
     </div>

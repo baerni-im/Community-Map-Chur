@@ -27,19 +27,17 @@ const Index = () => {
           <div className='ui container'>
             <h1 className='ui header'>
               <div className='content'>
-                <span className={'page-title'}>Community Isolation Map: The information network to keep your community safe.</span>
+                <span className={'page-title'}>Chur-hilft-Chur: Isoliert, aber nicht alleine.</span>
                 <div className='sub header'>
-                  Check out the interactive map and stay in touch with the community during the coronavirus isolation.{' '}
+                  Mit der interaktiven Chur-hilft-Chur-Karte bleibst du während der Coronavirus-Isolation mit deiner Community in Chur in Kontakt.{' '}
                   <Link to={'/add'}>
-                    Add more public information to the map
+                    Füge weitere Informationen zur Karte hinzu,
                   </Link>
-                  {' '}to help keeping everyone healthy.
+                  {' '}damit alle gesund und munter bleiben. #Dobinidahai
                 </div>
               </div>
             </h1>
-            <div className={'ui yellow message'} style={{fontWeight: 500, fontStyle: 'italic'}}>
-              <i className={'icon external link'} />Read the Tutorial about how to set up your own map <a href={'https://medium.com/@marcfehr/how-to-build-a-fast-and-reliable-community-mapping-tool-with-gatsbyjs-and-firebase-74a0fa6b5b83?source=userActivityShare-f57d26da4972-1584988662&_branch_match_id=689400773593121406'} target={'_blank'} rel={'noopener noreferrer'}>here</a>.
-            </div>
+
           </div>
         </section>
         <section>
@@ -47,24 +45,21 @@ const Index = () => {
         </section>
         <section className='ui vertical segment intro'>
           <div className='ui text container formcontainer'>
-            <h2>What do I see on this map?</h2>
+            <h2>Was sehe ich auf der Karte?</h2>
             <p>
-              At the moment, the map shows people and shops who offer their help and services for the community in and around Muizenberg. I'm currently working to add more functionality to it:
+              Die Karte zeigt Personen oder Geschäfte, die in diesen schwierigen Zeiten ihre Hilfe oder Dienstleistungen für euch Churer und Churerinnen anbieten.
             </p>
-            <ul>
-              <li>A "help" <strong>function for vulnerable people and people in need</strong> who's data need to be protected. This will will soon be online.</li>
-              <li>Also, there will be an option to offer <strong>help without being on a map</strong>, if the offered services are not bound to any location.</li>
-            </ul>
+
             <Link
               to={'/add'}
               className='ui primary fluid button'
               style={{marginTop: '1rem'}}
             >
-              Add public information now
+              Information hinzufügen
             </Link>
-            <h2>How can I delete myself from the app?</h2>
+            <h2>Wie kann ich einen Eintrag entfernen?</h2>
             <p>
-              Write me an email to{' '}
+              Schreibe mir eine Mail an{' '}
               <a
                 href={`mailto:${data.site.siteMetadata.email}`}
                 target='_blank'
@@ -72,7 +67,7 @@ const Index = () => {
               >
                 {data.site.siteMetadata.email}
               </a>
-              .{' '}Otherwise, all your data will be automatically deleted once this map is not being needed anymore.
+              .{' '}Andernfalls werden sämtliche Daten entfernt, sobald diese Karte nicht mehr benötigt wird.
             </p>
           </div>
         </section>

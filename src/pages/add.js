@@ -15,10 +15,10 @@ const Add = () => {
             <h1 className='ui header'>
               <div className='content'>
               <span className='page-title'>
-                You've got some useful information to share?
+                Du hast nützliche Infos oder bietest Hilfe an?
               </span>
                 <div className='sub header'>
-                  While shops and restaurants are closing, people get more and more isolated. Stay safe, help where you can and keep your mental hygiene up. Thanks for sharing your information in the interactive map below.
+                  Den einen fällt im HomeOffice die Decke auf den Kopf und die anderen kämpfen mit ihrem KMU um ihre Existenz. Vielen Dank für deine Hilfe oder deine Information mit dem Eintrag in die interaktive Karte.
                 </div>
               </div>
             </h1>
@@ -27,11 +27,9 @@ const Add = () => {
 
         <section className='ui vertical segment'>
           <div className='ui text container formcontainer'>
-            <h2>This is how it works</h2>
-            Choose a place on the map where you want the information to appear. You'll be asked to provide us with information about your entry before you can send it off. <strong>We are going to check all entries manually</strong>. Once your entry is approvoved, you'll see it{' '}
-            <Link to='/'>
-              here
-            </Link>.
+            <h2>So funktionierts</h2>
+            Wähle einen Ort auf der Karte, wo deine Information erscheinen soll. Danach kannst du deinen Eintrag genauer beschreiben und wir geben ihn <strong>nach einer manuellen Prüfung</strong> auf der Karte frei.{' '}
+
           </div>
         </section>
         <section>
