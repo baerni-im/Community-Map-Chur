@@ -20,8 +20,8 @@ module.exports = {
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
-      {title: 'Add', link: '/add', icon: 'plus'},
-      {title: 'Contact', link: '/contact', icon: 'info'},
+      {title: 'Hinzufügen', link: '/add', icon: 'plus'},
+      {title: 'Kontakt', link: '/contact', icon: 'info'},
     ],
     mapData: {
       bounds: [

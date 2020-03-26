@@ -135,7 +135,7 @@ export function MapAddComponent() {
           <div id='overlay' className='box'>
             <h3>Neue Information hinzufügen</h3>
             <p>
-              Wähle eine Position auf der Karte, um ein Teil der CommunityChur zu werden.
+              Wähle eine Position auf der Karte, um ein Teil der Chur-hilft-Chur-Community zu werden.
             </p>
             <button
               className='ui primary button'

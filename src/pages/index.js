@@ -29,11 +29,11 @@ const Index = () => {
               <div className='content'>
                 <span className={'page-title'}>Chur hilft Chur</span>
                 <div className='sub header'>
-                  Mit der interaktiven Chur-hilft-Chur-Karte bleibst du während der Coronavirus-Isolation mit deiner Community in Chur in Kontakt.{' '}
+                  Mit der interaktiven Chur-hilft-Chur-Karte bleibst du während der Coronavirus-Isolation mit deiner Community in Kontakt.{' '}
                   <Link to={'/add'}>
                     Füge weitere Informationen zur Karte hinzu,
                   </Link>
-                  {' '}damit alle gesund und munter bleiben. #Dobinidahai
+                  {' '}wenn du anderen behilflich sein kannst. #ChurhilftChur
                 </div>
               </div>
             </h1>
@@ -47,7 +47,7 @@ const Index = () => {
           <div className='ui text container formcontainer'>
             <h2>Was sehe ich auf der Karte?</h2>
             <p>
-              Die Karte zeigt Personen oder Geschäfte, die in diesen schwierigen Zeiten ihre Hilfe oder Dienstleistungen für euch Churer und Churerinnen anbieten.
+              Die Karte zeigt Personen oder Geschäfte, die ihre Hilfe oder Dienstleistungen für euch Churer und Churerinnen anbieten. Vom Restaurant, das neu Take-Away anbietet bis zur Einzelperson, die anderen via Skype gerne Musik vorspielt, sind alle Angebote willkommen.
             </p>
 
             <Link
