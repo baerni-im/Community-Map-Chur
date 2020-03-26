@@ -336,10 +336,11 @@ export function MapAddComponent() {
         <div className='ui text container formcontainer'>
           <h2>Was geschieht mit meinen Daten?</h2>
           Die CommunityChur-Administratoren überprüfen deine Angaben  will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
-          <h2>Which kind of entries will be approved?</h2>
-          Everyone can become part of the Who'zinberg community. Whether you're offering to read books to children via Skype, want to deliver a few slices of your delicious sour dough bread every Wednesday, or simply start a new take-away service for your products – this is your place. There will soon be an option for <strong>location-free services</strong>, too.
-          <h2>How can I remove my data?</h2>
-          If you <strong>want to be deleted</strong> from the Who'zinberg map, drop me an email to{' '}
+          <h2>Welche Einträge werden bewilligt?</h2>
+          Jede und jeder kann Teil der Chur-hilft-Chur-Community werden. Egal, ob du via Skype Kindergeschichten vorlesen oder
+          ein paar Stücke deiner leckeren Bündner Nusstorte ausliefern möchtest: Alles ist unter Einhaltung der Vorsichtsmassnahmen willkommen.
+          <h2>Wie kann ich meine Daten entfernen?</h2>
+          Wenn dein Eintrag von der Chur-hilft-Chur Karte <strong>entfernt werden soll,</strong> schick mir eine Nachricht an{' '}
           <a
             href='mailto:mail@whozinberg.org'
           >
