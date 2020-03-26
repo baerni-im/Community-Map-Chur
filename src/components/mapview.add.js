@@ -181,7 +181,7 @@ export function MapAddComponent() {
               }}
             >
               <i className='left arrow icon' />
-              Change location
+              Andere Position verwenden
             </button>
             <div className='ui form'>
               <h4 className='ui horizontal divider header'>
@@ -335,7 +335,7 @@ export function MapAddComponent() {
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Was geschieht mit meinen Daten?</h2>
-          Die CommunityChur-Administratoren überprüfen deine Angaben  will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
+          Die Chur-hilft-Chur-Administratoren überprüfen deine Angaben und fügen sie anschliessend der interaktiven Karte hinzu. Das dauert in der Regel <strong>weniger als 24 Stunden</strong>.<br />
           <h2>Welche Einträge werden bewilligt?</h2>
           Jede und jeder kann Teil der Chur-hilft-Chur-Community werden. Egal, ob du via Skype Kindergeschichten vorlesen oder
           ein paar Stücke deiner leckeren Bündner Nusstorte ausliefern möchtest: Alles ist unter Einhaltung der Vorsichtsmassnahmen willkommen.
@@ -349,7 +349,7 @@ export function MapAddComponent() {
           <h2>Was können wir verbessern?</h2>
           Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
           href='mailto:beni.aebersold@gmail.com'
-        >
+        >beni.aebersold@gmail.com
         </a>{' '}.
           <h2>Warum nur in Chur?</h2>
           Zur Verhinderung einer starken Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.
