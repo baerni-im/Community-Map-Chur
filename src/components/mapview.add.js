@@ -342,18 +342,17 @@ export function MapAddComponent() {
           <h2>Wie kann ich meine Daten entfernen?</h2>
           Wenn dein Eintrag von der Chur-hilft-Chur Karte <strong>entfernt werden soll,</strong> schick mir eine Nachricht an{' '}
           <a
-            href='mailto:mail@whozinberg.org'
+            href='mailto:beni.aebersold@gmail.com'
           >
-            mail@wwhozinberg.org
+            beni.aebersold@gmail.com
           </a>
-          <h2>Anything we can improve?</h2>
-          This tool is supposed to be used, why we're constantly looking for constructive feedback. If you have anything that you think would make this all better, please let me know via <a
-          href='mailto:mail@whozinberg.org'
+          <h2>Was können wir verbessern?</h2>
+          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
+          href='mailto:beni.aebersold@gmail.com'
         >
-          email
         </a>{' '}.
           <h2>Why test only Muizenberg?</h2>
-          Because at the moment, we all need to keep our lifes as local and isolated as possible. If you want this service to be available in your area,{' '}
+          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via
           <a
           href='mailto:mail@whozinberg.org'
         >
