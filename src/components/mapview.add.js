@@ -141,7 +141,7 @@ export function MapAddComponent() {
               className='ui primary button'
               onClick={() => setMapActive(true)}
             >
-              Karte aktivieren und Service hinzufügen
+              Karte aktivieren
             </button>
           </div>
         )}

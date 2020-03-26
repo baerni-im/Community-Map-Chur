@@ -15,10 +15,10 @@ const Add = () => {
             <h1 className='ui header'>
               <div className='content'>
               <span className='page-title'>
-                Du hast nützliche Infos oder bietest Hilfe an?
+                Eintrag hinzufügen
               </span>
                 <div className='sub header'>
-                  Den einen fällt im HomeOffice die Decke auf den Kopf und die anderen kämpfen mit ihrem KMU um ihre Existenz. Vielen Dank für deine Hilfe oder deine Information mit dem Eintrag in die interaktive Karte.
+                  Füge deine Information oder deine Hilfestellung in die interaktive Karte ein, damit wir unseren Nachbarn und lokalen Geschäften helfen können.
                 </div>
               </div>
             </h1>

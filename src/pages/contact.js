@@ -31,7 +31,7 @@ const Contact = () => {
           <ul>
             <li>
               {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
-              <a href='mailto:beni.aebersold@gmail.com'>
+              <a href='mailto:info@churhilftchur.ch'>
                 Bernhard Aebersold
               </a>, Journalist, Fotograf und Student an der Fachhochschule Graubünden.
             </li>
