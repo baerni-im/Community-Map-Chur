@@ -351,13 +351,15 @@ export function MapAddComponent() {
           href='mailto:beni.aebersold@gmail.com'
         >
         </a>{' '}.
-          <h2>Why test only Muizenberg?</h2>
-          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via
+          <h2>Warum nur in Chur?</h2>
+          Zur Verhinderung einer starken Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.
+          Das Projekt Chur-hilft-Chur soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann.
+          Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er
           <a
           href='mailto:mail@whozinberg.org'
         >
-            contact us via email
-        </a>{' '}and we'll talk about it. This complete project will soon be available as an <strong>open source repository</strong> on Github.
+            whozinberg.org
+        </a>{' '}ins Leben gerufen, das identisch wie Chur-hilft-Chur funktioniert. Dankbarerweise stellt er seinen Programmiercode frei für alle zur Verfügung, damit sich weitere Communities wie Chur-hilft-Chur bilden lassen. {' '}
         </div>
       </div>
     </div>
