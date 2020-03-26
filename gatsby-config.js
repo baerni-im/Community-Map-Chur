@@ -5,18 +5,18 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     author: 'Bernhard Aebersold',
-    title: 'Chur Community Map',
+    title: 'Chur hilft Chur',
     description:
       'Das ist ein Open-Source Projekt, um die Community in deiner Nähe zu zeigen.',
     email: 'beni.aebersold@gmail.com',
     teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
-      hashtag: 'communitychur',
+      hashtag: 'churhilftchur',
       handle: '@baern_i'
     },
     share: {
-      text: 'This is the share text, follow @xyz and #abc',
-      hashtags: 'Communitychur,Coronavirus,BleibtZuhause,StayTheFuckHome' // separate with commas,
+      text: 'Chur hilft Chur - hilf auch du in deiner Community',
+      hashtags: 'ChurhilftChur,Communitychur,Coronavirus,BleibtZuhause,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},

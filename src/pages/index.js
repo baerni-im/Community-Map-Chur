@@ -27,7 +27,7 @@ const Index = () => {
           <div className='ui container'>
             <h1 className='ui header'>
               <div className='content'>
-                <span className={'page-title'}>Chur-hilft-Chur: Isoliert, aber nicht alleine.</span>
+                <span className={'page-title'}>Chur hilft Chur</span>
                 <div className='sub header'>
                   Mit der interaktiven Chur-hilft-Chur-Karte bleibst du während der Coronavirus-Isolation mit deiner Community in Chur in Kontakt.{' '}
                   <Link to={'/add'}>
