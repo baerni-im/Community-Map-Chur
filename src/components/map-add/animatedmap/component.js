@@ -98,7 +98,7 @@ function AnimatedMap(props) {
         source: 'outline',
         paint: {
           'fill-color': '#ff0000',
-          'fill-opacity': 0.1
+          'fill-opacity': 0.5
         }
       })
 
