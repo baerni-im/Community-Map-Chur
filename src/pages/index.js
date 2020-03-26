@@ -29,10 +29,10 @@ const Index = () => {
               <div className='content'>
                 <span className={'page-title'}>Chur hilft Chur</span>
                 <div className='sub header'>
-                  In Zeiten von Selbstisolation und Social Distancing soll in Chur niemand alleine sein. Liest du gerne Geschichten via Skype oder Zoom vor oder hast du Zeit für mich einzukaufen oder sonst etwas anzubieten?
+                  In Zeiten von Selbstisolation und Social Distancing soll in Chur niemand alleine sein. Liest du gerne Geschichten via Skype oder Zoom vor oder hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten?
                   {' '}
                   <Link to={'/add'}>
-                  Füge auch du Einträge in die interaktive Karte hinzu,
+                  Füge deine Einträge in die interaktive Karte ein,
                   </Link>
                   {' '}damit wir diese Zeit gemeinsam durchstehen. #ChurhilftChur
                 </div>
@@ -56,7 +56,7 @@ const Index = () => {
               className='ui primary fluid button'
               style={{marginTop: '1rem'}}
             >
-              Information hinzufügen
+              Eintrag hinzufügen
             </Link>
             <h2>Wie kann ich einen Eintrag entfernen?</h2>
             <p>
