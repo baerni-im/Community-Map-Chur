@@ -48,7 +48,7 @@ const Header = () => {
             <a href={'https://twitter.com/intent/tweet?hashtags=' + shareHashtags +'&text=' + shareText} target={'_blank'} rel={'noopener noreferrer'}>
               <i className='ui icon twitter' />
             </a>
-            <a href={"mailto:beni.aebersold@gmail.com" + shareText + "&subject=Communitychur"}>
+            <a href={"mailto:info@churhilftchur.ch" + shareText + "&subject=Communitychur"}>
               <i className='ui icon envelope' />
             </a>
           </div>
