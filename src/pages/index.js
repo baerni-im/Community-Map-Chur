@@ -34,7 +34,7 @@ const Index = () => {
                   <Link to={'/add'}>
                   Füge deine Einträge in die interaktive Karte ein,
                   </Link>
-                  {' '}damit wir diese Zeit gemeinsam durchstehen.#ChurhilftChur
+                  {' '}damit wir diese Zeit gemeinsam durchstehen. #ChurhilftChur
                 </div>
               </div>
             </h1>
