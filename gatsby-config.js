@@ -9,7 +9,7 @@ module.exports = {
     description:
       'Das ist ein Open-Source Projekt, um die Community in deiner Nähe zu zeigen.',
     email: 'info@churhilftchur.ch',
-    teaserImage: "https://www.whozinberg.org/teaser.jpg",
+    teaserImage: "#",
     twitter: {
       hashtag: 'churhilftchur',
       handle: '@baern_i'
@@ -37,7 +37,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "XX-XXXXXXXXX-X",
+        trackingId: "UA-137035852-2",
       },
     },
     {

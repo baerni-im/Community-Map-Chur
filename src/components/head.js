@@ -20,7 +20,7 @@ const Head = ({ title }) => {
       title={`${title} | ${data.site.siteMetadata.title}`}
       meta={[
         { name: 'description', content: data.site.siteMetadata.description },
-        { name: 'og:url', content: "https://www.whozinberg.org" },
+        { name: 'og:url', content: "https://churhilftchur.ch/" },
         { name: 'og:image', content: data.site.siteMetadata.teaserImage },
         { name: 'og:image:secure_url', content: data.site.siteMetadata.teaserImage },
         { name: 'og:locale', content: "en_GB"},
