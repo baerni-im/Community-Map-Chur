@@ -27,13 +27,15 @@ const Contact = () => {
 
       <section className='ui vertical segment' style={{minHeight: '55vh'}}>
         <div className='ui text container formcontainer'>
-          <h2>Email</h2>
+          <h2>Weitere Projekte</h2>
           <ul>
             <li>
               {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
-              <a href='mailto:info@churhilftchur.ch'>
-                Bernhard Aebersold
-              </a>, Journalist, Fotograf und Student an der Fachhochschule Graubünden.
+              <a href='https://aarau.netlify.com' target={'_blank'} rel={'noopener noreferrer'}>Zäme Starch - Aarau</a> von <a href='mailto:me@sandroanderes.ch' target={'_blank'} rel={'noopener noreferrer'}>Sandro Anderes</a>.
+            </li>
+            <li>
+              {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
+              <a href='#' target={'_blank'} rel={'noopener noreferrer'}>URL folgt - Zizers</a> von <a href='mailto:frank.zinsli@stud.fhgr.ch' target={'_blank'} rel={'noopener noreferrer'}>Frank Zinsli</a>.              
             </li>
           </ul>
           <h2>Teile Chur-hilft-Chur auf deinen Kanälen</h2>
