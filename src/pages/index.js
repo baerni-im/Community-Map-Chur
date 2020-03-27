@@ -48,7 +48,7 @@ const Index = () => {
           <div className='ui text container formcontainer'>
             <h2>Was sehe ich auf der Karte?</h2>
             <p>
-              Die Karte zeigt Personen oder Geschäfte, die ihre Hilfe oder Dienstleistungen für Churerinnen und Churer anbieten. Vom Restaurant, das neu Take-Away anbietet bis zur Einzelperson, die anderen via Skype gerne Musik vorspielt: Alle Angebote sind willkommen.
+              Die Karte zeigt Personen oder Geschäfte, die ihre Hilfe oder Dienstleistungen für Churerinnen und Churer anbieten. Vom Restaurant, das neu Take-Away anbietet, bis zur Einzelperson, die anderen via Skype gerne Musik vorspielt: Alle Angebote sind willkommen.
             </p>
 
             <Link

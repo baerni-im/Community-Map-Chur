@@ -15,7 +15,7 @@ const Contact = () => {
               Nimm Kontakt auf
             </span>
               <div className='sub header'>
-                Dieses Projekt wurde von<a href={'https://bernhardaebersold.ch/'} target={'_blank'}>Bernhard Aebersold</a> umgesetzt. Die Vorlage stammt vom Webentwickler <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr,</a> der seinen Code auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> kostenlos zur Verfügung stellt. Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee eure Freunden mit. Ich freue mich, auf dein Feedback!
+                Dieses Projekt wurde von <a href={'https://bernhardaebersold.ch/'} target={'_blank'}>Bernhard Aebersold</a> umgesetzt. Die Vorlage stammt vom Webentwickler <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr,</a> der seinen Code auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> kostenlos zur Verfügung stellt. Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit. Ich freue mich, auf dein Feedback!
               </div>
             </div>
           </h1>

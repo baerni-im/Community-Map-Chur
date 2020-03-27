@@ -312,6 +312,9 @@ export function MapAddComponent() {
                   Senden
                 </button>
               </div>
+              <p>
+                Mit dem Abschicken willigst du ein, dass die weiter oben gemachten Angaben auf dieser Webseite öffentlich ersichtlich sind.
+              </p>
             </div>
           </div>
         </div>
@@ -335,10 +338,12 @@ export function MapAddComponent() {
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Was geschieht mit meinen Daten?</h2>
-          Die Chur-hilft-Chur-Administratoren überprüfen deine Angaben und fügen sie anschliessend der interaktiven Karte hinzu. Das dauert in der Regel <strong>weniger als 24 Stunden</strong>.<br />
+          Die Chur-hilft-Chur-Administratoren überprüfen deine Angaben und fügen sie anschliessend der interaktiven Karte hinzu. Das dauert in der Regel <strong>weniger als 24 Stunden</strong>.
+          Um Punkte hinzuzufügen, muss jede/r aktiv einwilligen, die Daten auf der Webseite zu publizieren.
+          Es werden keine Daten an Dritte weitergegeben. <br/>
           <h2>Welche Einträge werden bewilligt?</h2>
           Jede und jeder kann Teil der Chur-hilft-Chur-Community werden. Egal, ob du via Skype Kindergeschichten vorlesen oder
-          ein paar Stücke deiner leckeren Bündner Nusstorte ausliefern möchtest: Alles ist unter Einhaltung der Vorsichtsmassnahmen willkommen.
+          ein paar Stücke deiner leckeren Bündner Nusstorte ausliefern möchtest: Alles ist unter Einhaltung der BAG-Vorsichtsmassnahmen willkommen.
           <h2>Wie kann ich meine Daten entfernen?</h2>
           Wenn dein Eintrag von der Chur-hilft-Chur Karte <strong>entfernt werden soll,</strong> schick mir eine Nachricht an{' '}
           <a
@@ -352,9 +357,9 @@ export function MapAddComponent() {
         >info@churhilftchur.ch
         </a>{' '}.
           <h2>Warum nur in Chur?</h2>
-          Zur Verhinderung einer starken Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.
+          Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.
           Das Projekt Chur-hilft-Chur soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann.
-          Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er
+          Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er 
           <a
           href='mailto:mail@whozinberg.org'
         >
