@@ -15,7 +15,7 @@ module.exports = {
       handle: '@baern_i'
     },
     share: {
-      text: 'Chur hilft Chur - hilf auch du in deiner Community',
+      text: 'churhilftchur.ch - Hilf auch du in deiner Community',
       hashtags: 'ChurhilftChur,Communitychur,Coronavirus,BleibtZuhause,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [

@@ -29,7 +29,7 @@ const Index = () => {
               <div className='content'>
                 <span className={'page-title'}>Chur hilft Chur</span>
                 <div className='sub header'>
-                  In Zeiten von Selbstisolation und Social Distancing soll in Chur niemand alleine sein. Liest du gerne Geschichten via Skype vor, oder hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten?
+                  In Zeiten von Selbstisolation und Social Distancing soll in Chur niemand alleine sein. Liest du gerne Geschichten via Skype vor, hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten?
                   {' '}
                   <Link to={'/add'}>
                   Füge deine Einträge in die interaktive Karte ein,
