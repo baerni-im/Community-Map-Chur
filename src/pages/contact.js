@@ -35,7 +35,7 @@ const Contact = () => {
             </li>
             <li>
               {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
-              <a href='#' target={'_blank'} rel={'noopener noreferrer'}>URL folgt - Zizers</a> von <a href='mailto:frank.zinsli@stud.fhgr.ch' target={'_blank'} rel={'noopener noreferrer'}>Frank Zinsli</a>.              
+              <a href='https://zizers-hilft.netlify.com/' target={'_blank'} rel={'noopener noreferrer'}>Zizers hilft</a> von <a href='mailto:frank.zinsli@stud.fhgr.ch' target={'_blank'} rel={'noopener noreferrer'}>Frank Zinsli</a>.              
             </li>
           </ul>
           <h2>Teile Chur-hilft-Chur auf deinen Kanälen</h2>
