@@ -7,9 +7,9 @@ module.exports = {
     author: 'Bernhard Aebersold',
     title: 'Chur hilft Chur',
     description:
-      'Das ist ein Open-Source Projekt, um die Community in deiner Nähe zu zeigen.',
+      'Gemeinsam gegen Corona: Einkaufshilfe, Lieferservice, Unterhaltung und vieles mehr: Jetzt auf Chur hilft Chur',
     email: 'beni.aebersold@gmail.com',
-    teaserImage: "#",
+    teaserImage: "https://www.churhilftchur.ch/teaser.jpg",
     twitter: {
       hashtag: 'churhilftchur',
       handle: '@baern_i'
