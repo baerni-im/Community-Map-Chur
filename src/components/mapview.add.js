@@ -218,7 +218,7 @@ export function MapAddComponent() {
                 <label>Titel</label>
                 <input
                   type='text'
-                  name='Titel'
+                  name='title'
                   value={content.title}
                   onChange={onChange}
                   placeholder='Ich gehe für dich einkaufen / Mit Hunden spazieren etc...'
@@ -229,7 +229,7 @@ export function MapAddComponent() {
                 <label>Das bietest du an</label>
                 <textarea
                   rows={4}
-                  name='Beschreibung'
+                  name='description'
                   onChange={onChange}
                   placeholder='Schreibe einen kurzen Text, der deinen Service oder deine Information beschreibt.'
                   defaultValue={content.description}
@@ -240,7 +240,7 @@ export function MapAddComponent() {
                 <label>Kontaktaufnahme</label>
                 <textarea
                   rows={4}
-                  name='Kontakt'
+                  name='contact'
                   placeholder='Das ist die Kontaktadresse, die die Webseitenbesucher sehen werden. Beispiel: Whatsapp: 079 123 45 67, Email: max@mustermann.ch'
                   defaultValue={content.contact}
                   onChange={onChange}
@@ -251,7 +251,7 @@ export function MapAddComponent() {
                 <label>Deine Adresse</label>
                 <textarea
                   rows={4}
-                  name='Adresse'
+                  name='address'
                   placeholder='Beispiel: Calandastrasse 1, 7000 Chur. Wir benötigen diese Angabe, um deinen Eingabe auf der Karte zu überprüfen.'
                   defaultValue={content.address}
                   onChange={onChange}
