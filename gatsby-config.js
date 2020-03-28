@@ -8,7 +8,7 @@ module.exports = {
     title: 'Chur hilft Chur',
     description:
       'Das ist ein Open-Source Projekt, um die Community in deiner Nähe zu zeigen.',
-    email: 'info@churhilftchur.ch',
+    email: 'beni.aebersold@gmail.com',
     teaserImage: "#",
     twitter: {
       hashtag: 'churhilftchur',
