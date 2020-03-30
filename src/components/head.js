@@ -25,7 +25,7 @@ const Head = ({ title }) => {
         { name: 'og:image:secure_url', content: data.site.siteMetadata.teaserImage },
         { name: 'og:locale', content: "en_GB"},
         { name: 'og:image:type', content: "image/jpeg"},
-        { name: 'og:image:alt', content: "Whozinberg.org Teaser Image with photo taken from above." },
+        { name: 'og:image:alt', content: "churhilftchur.ch Teaser-Bild der Stadt Chur." },
       ]}
     />
   );

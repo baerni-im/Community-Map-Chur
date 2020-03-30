@@ -347,14 +347,14 @@ export function MapAddComponent() {
           <h2>Wie kann ich meine Daten entfernen?</h2>
           Wenn dein Eintrag von der Chur-hilft-Chur Karte <strong>entfernt werden soll,</strong> schick mir eine Nachricht an{' '}
           <a
-            href='mailto:info@churhilftchur.ch'
+            href='mailto:beni.aebersold@gmail.com'
           >
             info@churhilftchur.ch
           </a>
           <h2>Was können wir verbessern?</h2>
           Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
-          href='mailto:info@churhilftchur.ch'
-        >info@churhilftchur.ch
+          href='mailto:beni.aebersold@gmail.com'
+        >beni.aebersold@gmail.com
         </a>{' '}.
           <h2>Warum nur in Chur?</h2>
           Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen.

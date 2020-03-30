@@ -15,7 +15,8 @@ const Contact = () => {
               Nimm Kontakt auf
             </span>
               <div className='sub header'>
-                Dieses Projekt wurde von <a href={'https://bernhardaebersold.ch/'} target={'_blank'}>Bernhard Aebersold</a> umgesetzt. Die Vorlage stammt vom Webentwickler <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr,</a> der seinen Code auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> kostenlos zur Verfügung stellt. Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit. Ich freue mich, auf dein Feedback!
+                Dieses Projekt wurde von <a href={'https://bernhardaebersold.ch/'} target={'_blank'}>Bernhard Aebersold</a> umgesetzt. Die Vorlage stammt vom Webentwickler <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr,</a> der den Code auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> kostenlos zur Verfügung stellt. Die Karte wurde ursprünglich vom Datenjournalisten Simon Huwiler erstellt, der beim Tages-Anzeiger arbeitet.
+                Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit. Ich freue mich, auf dein Feedback!
               </div>
             </div>
           </h1>
@@ -35,7 +36,7 @@ const Contact = () => {
             </li>
             <li>
               {/* If you're a developer, add yourself here and create a MR on Gitlab do get onto the original repository */}
-              <a href='https://zizers-hilft.netlify.com/' target={'_blank'} rel={'noopener noreferrer'}>Zizers hilft</a> von <a href='mailto:frank.zinsli@stud.fhgr.ch' target={'_blank'} rel={'noopener noreferrer'}>Frank Zinsli</a>.              
+              <a href='https://zizers-hilft.netlify.com/' target={'_blank'} rel={'noopener noreferrer'}>Zizers hilft</a> von <a href='mailto:frank.zinsli@stud.fhgr.ch' target={'_blank'} rel={'noopener noreferrer'}>Frank Zinsli</a>.
             </li>
           </ul>
           <h2>Teile Chur-hilft-Chur auf deinen Kanälen</h2>
