@@ -6,7 +6,7 @@ import Head from '../components/head';
 const Contact = () => {
   return (
     <Layout>
-      <Head title={`Contact`} />
+      <Head title={`Jetzt helfen`} />
       <section className='ui vertical very fitted segment' style={{marginTop: '1rem'}}>
         <div className='ui container'>
           <h1 className='ui header'>
