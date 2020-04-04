@@ -41,6 +41,7 @@ const Contact = () => {
           </ul>
           <div>
           <img src="../../static/gewerbehilfe.png">
+          </div>
         </div>
       </section>
     </Layout>
