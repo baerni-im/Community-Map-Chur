@@ -39,7 +39,6 @@ const Contact = () => {
               Nach dem Lockdown wirfst du mit Gutscheinen um dich als wären es Hunderter-Nötli.
             </li>
           </ul>
-          <img src="../../static/gewerbehilfe.png">
         </div>
       </section>
     </Layout>
