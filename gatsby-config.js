@@ -21,7 +21,6 @@ module.exports = {
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
       {title: 'Hinzufügen', link: '/add', icon: 'plus'},
-      {title: 'Mit Gutschein helfen', link: '/jetzt_helfen', icon: 'heart'},
       {title: 'Kontakt', link: '/contact', icon: 'info'},
 
     ],
